@@ -12,6 +12,6 @@ module.exports = function (app) {
     const controller = require(path.resolve(controllerPath))
     controller(router)
   })
-
+ 
   app.use('/', router)
 }
